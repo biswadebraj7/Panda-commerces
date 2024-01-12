@@ -1,0 +1,122 @@
+*{
+    margin: 0;
+    padding: 0;
+    
+}
+body{
+    font-family: 'Inter', sans-serif;
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Work Sans', sans-serif;
+}
+.container{
+    max-width: 1220px;
+    width: 98%;
+}
+nav{
+    width: 1124px;
+   margin: 45px 0px;
+}
+.search{
+    display: flex;
+    padding: 12px;
+    align-items: flex-start;
+    gap: 390px;
+    width: 500px;
+    height: 48px;
+    border: 0;
+    border-radius: 66px;
+    background: #F1F1F1;
+    color: #CCCCCC;
+    position: relative;
+
+}
+.search img{
+    width: 20px;
+    height: 12px;
+    border: 0;
+    position: absolute;
+   margin-left: -100px;
+  
+    
+
+    
+    
+}
+
+.navbar-nav{
+    display: flex;
+    justify-content: space-between;
+}
+.navbar-nav .nav-item .nav-link{
+    color: #707070;
+    font-family: Poppins;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+
+}
+.header-slide{
+    background-color: #FEEAE9;
+    border-radius: 15px;
+}
+.header-content{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+   padding: 30px 30px 0px 30px;
+}
+.tv-content{
+
+}
+.tv-content h1{
+    color: #1F1F1F;
+    font-family: Poppins;
+    font-size: 56px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+.tv-content p{
+    width: 456px;
+    color: #4E4E4E;
+    font-family: Inter;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 26px; /* 162.5% */
+    text-align: left;
+}
+.tv-btn{
+    width: 168px;
+    height: 52px;
+    border-radius: 6px;
+    color: #FFF;
+    font-family: Inter;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+background: var(--Linear, linear-gradient(180deg, #FF589B -0.01%, #FF136F 99.99%));
+}
+.tv-content h3{
+    color:#FF136F;
+    font-family:Poppins;
+    font-size:41px;
+    font-style:normal;
+    font-weight:500;
+    line-height:normal;
+    text-align:left;
+    padding:5px 0px;
+}
+.tv-photo{
+    float: right;
+    margin-left: 80px;
+
+}
+.tv-photo img{
+    width: 400px;
+    height: 378px;
+    margin: auto;
+
+}
